@@ -1,0 +1,3 @@
+Para formatar - npx prettier ./caminho --write
+
+Para checar se algo precisa ser formatado - npx prettier ./caminho --check
