@@ -37,7 +37,7 @@ let movies = {
 }
 
 export function showMovies(movies: Movies) {
-    movies.movie1!.title = "O amanhecer 2" // Readonly sendo aplicado no tipo que possui a parametrização por causa do parametro
+    //movies.movie1!.title = "O amanhecer 2" // Readonly sendo aplicado no tipo que possui a parametrização por causa do parametro
     console.log(movies)
 }
 
