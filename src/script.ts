@@ -1,4 +1,4 @@
-import { bootstrap } from "./modules/basic-types/intersection-types.js";
+import { bootstrap } from "./modules/narrowing/typeof.js";
 
 export { bootstrap }
 
