@@ -1,4 +1,4 @@
-import { bootstrap } from "./modules/narrowing/array-isarray.js";
+import { bootstrap } from "./modules/narrowing/hierarquia-de-tipos-e-tipo-unknown.js";
 
 export { bootstrap }
 
