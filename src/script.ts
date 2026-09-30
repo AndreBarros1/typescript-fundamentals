@@ -1,4 +1,4 @@
-import { bootstrap } from "./modules/narrowing/hierarquia-de-tipos-e-tipo-unknown.js";
+import { bootstrap } from "./modules/narrowing/type-never.js";
 
 export { bootstrap }
 
