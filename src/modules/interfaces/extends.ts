@@ -1,30 +1,8 @@
 export const bootstrap = () => {
-    interface PersonalInfo {
-        fullName: string
-        email: string
-        dateOfBirth?: Date
-        sumary?: string
-    }
-      
-    interface Resume extends PersonalInfo, Theme{
-        skills: Skill[]
-        addSkill: (skill: Skill) => boolean
-    }
-
-    interface Skill {
-        name:string
-        level: 'beginner' | 'intermediate' | 'advanced'
-    }
 
     type Font = 'open-sans' | 'roboto'
     type ColorScheme = 'light' | 'dark'
     type Layout = 'one-column' | 'two-column'
-
-    interface Theme {
-        font: 'open-sans' | 'roboto'
-        colorScheme: 'light' | 'dark'
-        layout: 'one-column' | 'two-column'
-    }
 
     class MyResume implements Resume {
         constructor(
