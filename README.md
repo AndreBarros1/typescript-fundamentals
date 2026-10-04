@@ -1,50 +1,103 @@
-# Estudos de TypeScript
+# TypeScript Fundamentals
 
-Repositório de estudos de TypeScript, organizado em uma branch por aula/tópico, com o objetivo de acompanhar a evolução gradual do aprendizado ao longo do curso.
+Repository created during my TypeScript studies, containing examples and exercises developed lesson by lesson.
 
-## Como navegar pelo repositório
+The main goal of this repository is to document my progress with TypeScript fundamentals while also practicing Git and GitHub workflows.
 
-Cada branch representa o código até aquele ponto específico do curso. Como as branches são cumulativas (cada uma parte da anterior), é possível comparar duas aulas e ver exatamente o que mudou entre elas:
+## Topics Covered
 
-```bash
-git switch nome-da-branch      # acessa o conteúdo de uma aula específica
-git log                        # vê o histórico de commits até aquele ponto
-git diff aula-01 aula-05       # compara o que mudou entre duas aulas
+The repository includes examples involving:
+
+- Type annotations
+- Type inference
+- Primitive types
+- Arrays and tuples
+- Enums
+- Literal types
+- Union types
+- Intersection types
+- Type aliases
+- Object types
+- Function typing
+- Callbacks
+- `unknown`
+- Type narrowing
+- Type guards
+- `typeof`
+- `instanceof`
+- `in`
+- Truthy and falsy values
+- Optional chaining
+- Non-null assertion
+- Type assertions
+- `never`
+- Interfaces
+- Interface inheritance
+- `extends`
+- `implements`
+- Declaration merging
+
+## Project Structure
+
+```text
+src/
+└── modules/
+    ├── basic-types/
+    ├── interfaces/
+    └── narrowing/
+
+types/
+└── global.d.ts
 ```
 
-## Tópicos cobertos
+Each module contains small examples focused on a specific TypeScript concept.
 
-- Type Inference
-- Type Annotation
-- Tipo Array
-- Union Types
-- Tipo Tuple
-- Readonly em Arrays e Tuplas
-- Type Object
-- Type Alias
-- Type Object — Index Signature
-- Type Object — Readonly
-- Literal Types
-- Let vs Const
-- Tipo Any
-- Const no Contexto de Objetos
-- Função — Tipo Void
-- Função — Tipo Return
-- Função — Type Annotation
-- Função — Type Annotation em Callbacks
-- Executando os scripts compilados no Browser
-- Compilação automática
-- Extensões TS e JS Antes e Depois do Build
-- Tipos Null e Undefined
-- Tipo Enum
-- Tipo BigInt
-- Tipo Symbol
-- Intersection Types
+## Branch Strategy
 
-## Tecnologias
+During the course, each lesson was developed in its own Git branch.
+
+This allowed me to practice:
+
+- Creating and switching branches
+- Organizing commits
+- Maintaining a progressive history of the project
+- Working with Git while learning TypeScript
+
+The `main` branch represents the latest version of the project.
+
+Previous lesson states can be explored through the repository branches and commit history.
+
+## Running the Project
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Check the TypeScript code:
+
+```bash
+npx tsc --noEmit
+```
+
+Compile the project:
+
+```bash
+npx tsc
+```
+
+## Technologies
 
 - TypeScript
+- JavaScript
+- HTML
+- Node.js
+- npm
+- Git
+- GitHub
+- Prettier
 
-## Sobre
+## Purpose
 
-Projeto de estudo pessoal, feito em paralelo a um curso de TypeScript, como parte de uma trilha de transição de carreira para desenvolvimento front-end/full-stack.
+This repository is part of my learning path toward front-end and full-stack web development, with a focus on building a strong foundation in TypeScript before advancing further into technologies such as React and Next.js.
