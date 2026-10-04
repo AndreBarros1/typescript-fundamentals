@@ -1,3 +1,20 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Build
+dist/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
 *.txt
-dist
+*.tsbuildinfo
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
