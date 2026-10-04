@@ -1,4 +1,4 @@
-import { bootstrap } from "./modules/interfaces/declaration-merging.js";
+import { bootstrap } from "./modules/interfaces/extends.js";
 
 export { bootstrap }
 
